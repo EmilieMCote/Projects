@@ -1,0 +1,3 @@
+[submodule "Constraining_Cosmological_Parameters/zentner19data"]
+	path = Constraining_Cosmological_Parameters/zentner19data
+	url = https://github.com/minaskar/zentner19data.git

@@ -17,18 +17,19 @@ This folder contains a set of Jupyter notebooks that explore various statistical
 - Demonstrates key statistical concepts through practical examples:
   1. Perform numerical integration for harmonic oscillator problems.
   2. Infer decay constants using Bayesian methods with truncated data, applying Bayes' theorem: 
-  $$P(\lambda | \{x_1, ..., x_N\}) \propto \frac{1}{(\lambda Z(\lambda))^N} \exp\left( -\sum_1^N x_n / \lambda \right) P(\lambda)$, where the probability density is $P(x | \lambda) = \frac{1}{\lambda} e^{-x/\lambda} / Z(\lambda)$$
+  $$P(\lambda | \{x_1, ..., x_N\}) \propto \frac{1}{(\lambda Z(\lambda))^N} \exp\left( -\sum_1^N x_n / \lambda \right) P(\lambda)$$ 
+  where the probability density is $$P(x | \lambda) = \frac{1}{\lambda} e^{-x/\lambda} / Z(\lambda)$$
   3. Analyze biased coin experiments with likelihood ratios and priors.
   4. Solve the Monty Hall problem using conditional probabilities and Bayes' theorem.
 
 ### `Gaussian_Binomial_Poisson_Distributions.ipynb`
 - Focuses on data analysis, probability distributions, and dimensionality reduction.
 - Applies statistical methods to real data:
-  1. Fit Gaussian contours to 2D datasets and compute statistical properties, using the Gaussian PDF: 
+  1. Fit Gaussian contours to 2D datasets and compute statistical properties, using the Gaussian PDF:
   $$f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( -\frac{(x-\mu)^2}{2\sigma^2} \right)$$
   2. Analyze 1D and 2D probability density functions with histograms.
   3. Calculate means, variances, medians, modes, and confidence intervals.
-  4. Perform dimensionality reduction techniques on multivariate data, including correlation coefficient: 
+  4. Perform dimensionality reduction techniques on multivariate data, including correlation coefficient:
   $$\rho = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}$$
 
 ## Files
